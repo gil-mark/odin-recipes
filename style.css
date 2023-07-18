@@ -1,0 +1,38 @@
+body {
+    font-family: Helvetica, sans-serif
+}
+
+.title {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 4px;
+}
+
+.introduction {
+    width: 400px;
+    margin: 16px auto;
+    text-align: center;
+    background-color:rgba(95, 158, 160, 0.549);
+    padding: 8px;
+}
+
+.recipes {
+    width: 400px;
+    margin: 16px auto;
+    background-color:rgba(95, 158, 160, 0.549);
+    padding: 8px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container div {
+    background: rgba(0, 128, 0, 0.469);
+    height: 100px;
+    flex: 1;
+    display: flex;
+    border: 1px solid black;
+    margin: 8px;
+}
